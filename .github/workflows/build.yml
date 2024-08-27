@@ -24,8 +24,8 @@ jobs:
           build-scan-terms-of-use-url: "https://gradle.com/terms-of-service"
           build-scan-terms-of-use-agree: "yes"
 
-      - name: Clean with Gradle
-        run: ./gradlew clean
+#      - name: Clean with Gradle
+#        run: ./gradlew clean
 
       - name: Build with Gradle
         run: ./gradlew build
