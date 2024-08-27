@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: 21.0.4
-          distribution: 'OpenJDK'
+          distribution: 'temurin'
           architecture: x64
 
       - name: Setup Gradle
